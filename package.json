@@ -1,0 +1,52 @@
+{
+  "name": "borank",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "next build",
+    "start": "next start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@apollo/react-hooks": "latest",
+    "@zeit/next-css": "^1.0.1",
+    "apollo-boost": "^0.4.7",
+    "apollo-cache-inmemory": "latest",
+    "apollo-link-http": "latest",
+    "apollo-server": "^2.12.0",
+    "apollo-server-express": "^2.12.0",
+    "apollo-server-micro": "^2.12.0",
+    "cheerio": "^1.0.0-rc.3",
+    "express": "^4.17.1",
+    "express-graphql": "^0.9.0",
+    "form-data": "^3.0.0",
+    "graphql": "^15.0.0",
+    "graphql-tools": "^4.0.7",
+    "isomorphic-unfetch": "^3.0.0",
+    "next": "^9.3.4",
+    "next-fonts": "^1.1.0",
+    "next-images": "^1.4.0",
+    "node-fetch": "^2.6.0",
+    "puppeteer": "^2.1.1",
+    "react": "^16.13.1",
+    "react-apollo": "^3.1.4",
+    "react-dom": "^16.13.1",
+    "supervisor": "^0.12.0",
+    "xmlhttprequest": "^1.8.0"
+  },
+  "devDependencies": {
+    "@svgr/webpack": "^5.3.1",
+    "file-loader": "^6.0.0",
+    "gh-pages": "^2.2.0",
+    "graphql-import": "^1.0.2",
+    "url-loader": "^4.1.0",
+    "webpack-cli": "^3.3.11"
+  },
+  "homepage": "https://taeinchoi9166.github.io/borank"
+}

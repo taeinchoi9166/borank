@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'Damion';
+    src: url("/fonts/Damion/Damion-Regular.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: 'NotoSans';
+    src: url("/fonts/Noto_Sans_KR/NotoSansKR-Regular.otf") format('opentype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'NotoSans';
+    src: url("/fonts/Noto_Sans_KR/NotoSansKR-Bold.otf") format('opentype');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'NotoSans';
+    src: url("/fonts/Noto_Sans_KR/NotoSansKR-Light.otf") format('opentype');
+    font-weight: 200;
+}
+
+@font-face {
+    font-family: 'foxLiteScript';
+    src: url("/fonts/foxlite_script/FoxliteScript.ttf") format('truetype');
+}

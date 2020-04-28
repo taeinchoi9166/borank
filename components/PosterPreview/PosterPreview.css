@@ -1,0 +1,23 @@
+@keyframes fadeInPosterView {
+    0% {
+        display: inline-block;
+        opacity: 0;
+    }
+    100% {
+        display: inline-block;
+        opacity: 1;
+    }
+}
+@keyframes fadeInPosterView {
+    0% {
+        display: inline-block;
+        opacity: 1;
+    }
+    99% {
+        display: inline-block;
+        opacity: 0;
+    }
+    100% {
+        display: none;
+    }
+}

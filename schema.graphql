@@ -1,0 +1,29 @@
+type RankItem {
+    movieCd: String,
+    rank: Int,
+    rankInten: Int,
+    isNewRanked: Boolean,
+    name: String,
+    openDate: String,
+    salesAcc: String,
+    audiAcc: String
+}
+
+type Movie {
+    movieCd: String,
+    movieNm: String,
+    openDt: String,
+    showTm: String,
+    nationNm: String,
+    genreNm: String,
+    peopleNm: String,
+    actorNm: String,
+    watchGradeNm: String
+}
+
+type Query {
+    rankItems(date: String!, itemPerPage: Int): [RankItem]
+    movie(movieCd: String!): Movie
+    movieImage(movieCd: String!): String
+}
+
