@@ -23,5 +23,6 @@ module.exports = withCSS(withFonts({
     },
     devIndicators: {
         autoPrerender: false
-    }
+    },
+    distDir: 'build'
 }));
